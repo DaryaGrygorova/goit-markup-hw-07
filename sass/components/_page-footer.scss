@@ -18,10 +18,6 @@
 }
 
 // Адреса, контакти
-.address__list {
-    @extend %list;
-}
-
 .address__item {
     &:not(:first-child) {
         margin-top: 7px;
@@ -29,14 +25,12 @@
 }
 
 .address__map-link {
-    @extend %link;
     font-style: normal;
     letter-spacing: 0.03em;
     color: $color-text-white;
 }
 
 .adress__link {
-    @extend %link;
     font-style: normal;
     letter-spacing: 0.03em;
     transition: color $transition-main;

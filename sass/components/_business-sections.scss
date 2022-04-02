@@ -2,10 +2,6 @@
     position: relative;
 }
 
-.business__img {
-    @extend %img;
-}
-
 .business__description {
     position: absolute;
     left: 0;
@@ -19,7 +15,6 @@
 }
 
 .business__title {
-    @extend %p;
     font-size: 14px;
     line-height: 1.14;
     text-align: center;

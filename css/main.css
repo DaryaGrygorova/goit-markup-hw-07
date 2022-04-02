@@ -1,22 +1,21 @@
-@charset "UTF-8";
-.card-set, .page-nav__list, .contacts, .address__list, .filter {
+.list {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.comunity__link, .logo, .page-nav__link, .contacts__link, .client__link, .address__map-link, .adress__link, .policy, .project__link {
+.link {
   text-decoration: none;
   color: inherit;
 }
 
-.business__img, .team-card__img, .project__img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.features__discription, .business__title, .project__discription {
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -109,7 +108,6 @@
   margin-right: 30px;
 }
 
-/* Галерея 3*3 */
 .card-set__item--gallary {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -955,7 +953,7 @@ body {
 }
 
 .filter__button:hover, .filter__button:focus {
-  color: var(--text-white-color);
+  color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }

@@ -21,7 +21,6 @@
 }
 
 .page-nav__list {
-    @extend %list;
     display: flex;
     margin-left: 93px;
 }
@@ -33,7 +32,6 @@
 }
 
 .page-nav__link {
-    @extend %link;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -67,7 +65,6 @@
 
 // Контакти
 .contacts {
-    @extend %list;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -80,7 +77,6 @@
 }
 
 .contacts__link {
-    @extend %link;
     display: inline-flex;
     align-items: center;
     padding-top: 28px;

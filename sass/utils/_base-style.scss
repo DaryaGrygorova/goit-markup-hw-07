@@ -1,26 +1,26 @@
 
 //  Cписки
-%list {
+.list {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
 //  Посилання
-%link {
+.link {
   text-decoration: none;
   color: inherit;
 }
 
 //  Зображення
-%img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
 // Абзаци
-%p {
+p {
   margin-top: 0;
   margin-bottom: 0;
 }

@@ -1,5 +1,4 @@
 .card-set {
-    @extend %list;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -11,7 +10,7 @@
     }
 }
 
-/* Галерея 3*3 */
+// Галерея 3*3
 .card-set__item--gallary {
     margin-right: 30px;
     margin-bottom: 30px;
