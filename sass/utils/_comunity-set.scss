@@ -1,0 +1,33 @@
+.comunity {
+    &:not(:last-child) {
+    margin-right: 16px;
+    }
+}
+
+.comunity__link {
+    @extend %link;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $color-bcg-main;
+    text-align: center;
+    transition: background-color $transition-main;
+
+    &:hover,
+    &:focus {
+        background-color: $color-theme-main;
+    }
+}
+
+.comunity__icon {
+    fill: $color-icon-no-active;
+    transition: fill $transition-main;
+
+    .comunity__link:hover &,
+    .comunity__link:focus & {
+        fill: $color-text-white;
+    }
+}
