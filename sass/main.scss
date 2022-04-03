@@ -1,10 +1,10 @@
 @import '../sass/utils/variables';
-@import '../sass/utils/base-style';
-@import '../sass/utils/visually_hidden';
-@import '../sass/utils/_section';
-@import '../sass/utils/button';
-@import '../sass/utils/card-set';
-@import '../sass/utils/comunity-set';
+@import '../sass/components/visually_hidden';
+@import '../sass/components/base-style';
+@import '../sass/components/_section';
+@import '../sass/components/button';
+@import '../sass/components/card-set';
+@import '../sass/components/comunity-set';
 @import '../sass/components/body';
 @import '../sass/components/logo';
 @import '../sass/components/page-header';

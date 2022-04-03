@@ -1,9 +1,3 @@
-.features__card-set {
-    display: flex;
-    justify-content: stretch;
-    letter-spacing: 0.03em;
-}
-
 .features {
     width: 270px;
 }
@@ -26,4 +20,8 @@
     color: $color-text-secondary;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.features__discription {
+    letter-spacing: 0.03em;
 }
