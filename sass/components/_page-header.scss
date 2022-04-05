@@ -1,13 +1,12 @@
-.header__section {
+.header {
     position: fixed;
     width: 100%;
     min-height: 80px;
     top: 0;
     left: 0;
     z-index: 1;
-    padding: 0;
     border-bottom: 1px solid #ececec;
-    background-color: $color-bcg-main;
+    background-color: $color-bgc-main;
 }
 
 .header__conteiner {
@@ -72,7 +71,7 @@
 
 .contacts__item {
     &:not(:first-child) {
-    margin-left: 50px;
+        margin-left: 50px;
     }
 }
 

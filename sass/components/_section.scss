@@ -1,22 +1,14 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  &--no-padding-top {
-    padding-top: 0;
-  }
-
-  &--grey {
-    background-color: $color-bcg-secondary;
-  }
 }
 
-.section__conteiner {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.section--no-padding-top { 
+  padding-top: 0;
+}
+
+.section--bgc-gray {
+  background-color: $color-bgc-secondary;
 }
 
 .section__title {

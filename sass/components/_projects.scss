@@ -1,9 +1,23 @@
-.project {
-    background: $color-bcg-main;
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.project__link {
-    display: block;
+.projects__item {
+    background: $color-bgc-main;
+
+    &:not(:nth-child(3n)) {
+        margin-right: 30px;
+    }
+
+    &:not(:nth-last-child(-n + 3)) {
+        margin-bottom: 30px;
+    }
+}
+
+.projects__link {
+    display: inline-block;
     transition: box-shadow $transition-main;
 
     &:hover,
@@ -13,18 +27,18 @@
     }
 }
 
-.project__thumb {
+.projects__thumb {
     position: relative;
     overflow: hidden;
 }
 
-.project__title {
+.projects__box {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
     border-top: 0px;
 }
 
-.project__name {
+.projects__title {
     margin-top: 0;
     margin-bottom: 4px;
     font-size: 18px;
@@ -33,14 +47,14 @@
     color: $color-text-secondary;
 }
 
-.project__type {
+.projects__type {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
 
 // Оверлей з описом проєкту
-.project__overlay {
+.projects__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -55,13 +69,13 @@
     transform: translateY(101%);
     transition: transform $transition-main;
 
-    .project__link:hover &,
-    .project__link:focus & {
+    .projects__link:hover &,
+    .projects__link:focus & {
         transform: translateY(0);
     }
 }
 
-.project__discription {
+.projects__discription {
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;

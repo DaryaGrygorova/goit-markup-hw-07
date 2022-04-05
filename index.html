@@ -19,26 +19,26 @@
   </head>
   <body>
     <!-- Хедер -->
-    <header class="section header__section">
-      <div class="section__conteiner header__conteiner">
+    <header class="header">
+      <div class="conteiner header__conteiner">
         <nav class="page-nav">
-          <a class="logo link" href="./index.html"
-            >Web<span class="logo__text logo__text--dark-theme">Studio</span></a
+          <a class="logo" href="./index.html"
+            >Web<span class="logo__text">Studio</span></a
           >
-          <ul class="page-nav__list list">
+          <ul class="page-nav__list">
             <li class="page-nav__item">
-              <a class="page-nav__link page-nav__link--current link" href="./index.html">Студия</a>
+              <a class="page-nav__link page-nav__link--current" href="./index.html">Студия</a>
             </li>
             <li class="page-nav__item">
-              <a class="page-nav__link link" href="./portfolio.html">Портфолио</a>
+              <a class="page-nav__link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="page-nav__item">
-              <a class="page-nav__link link" href="">Контакты</a></li>
+              <a class="page-nav__link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
-            <a class="contacts__link link" href="mailto:info@devstudio.com"
+            <a class="contacts__link" href="mailto:info@devstudio.com"
               ><svg class="contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -46,7 +46,7 @@
             >
           </li>
           <li class="contacts__item">
-            <a class="contacts__link header__link link" href="tel:+380961111111"
+            <a class="contacts__link header__link" href="tel:+380961111111"
               ><svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -59,17 +59,17 @@
     <main>
       <!-- Банер -->
       <section class="section hero">
-        <div class="section__conteiner">
+        <div class="conteiner">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button class="button hero__button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- Особенности -->
       <section class="section">
-        <div class="section__conteiner">
+        <div class="conteiner">
           <h2 class="section__title visually-hidden" aria-hidden="true" tabindex="-1">Особенности</h2>
-          <ul class="card-set list">
-            <li class="features card-set__item">
+          <ul class="features">
+            <li class="features__item">
               <div class="features__wrapper">
                 <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
@@ -80,7 +80,7 @@
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="features card-set__item">
+            <li class="features__item">
               <div class="features__wrapper">
                 <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
@@ -91,7 +91,7 @@
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="features card-set__item">
+            <li class="features__item">
               <div class="features__wrapper">
                 <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
@@ -102,7 +102,7 @@
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="features card-set__item">
+            <li class="features__item">
               <div class="features__wrapper">
                 <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
@@ -117,10 +117,10 @@
       </section>
       <!--Чем мы занимаемся-->
       <section class="section section--no-padding-top">
-        <div class="section__conteiner">
+        <div class="conteiner">
           <h2 class="section__title">Чем мы занимаемся</h2>
-          <ul class="card-set list">
-            <li class="business card-set__item">
+          <ul class="business">
+            <li class="business__item">
               <img class="business__img"
                 src="./images/box1.jpg"
                 alt="человек набирает код согласно нарисованого алгоритма"
@@ -131,7 +131,7 @@
                 <h3  class="business__title">Десктопные приложения</h3>
               </div>
             </li>
-            <li class="business card-set__item">
+            <li class="business__item">
               <img class="business__img"
                 src="./images/box2.jpg"
                 alt="человек выбирает варианты макетов сайта для мобильных устройств"
@@ -142,7 +142,7 @@
                 <h3  class="business__title">Мобильные приложения</h3>
               </div>
             </li>
-            <li class="business card-set__item">
+            <li class="business__item">
               <img class="business__img"
                 src="./images/box3.jpg"
                 alt="человек с помощью планшета подбирает палитру цветов"
@@ -157,142 +157,142 @@
         </div>
       </section>
       <!--Наша команда-->
-      <section class="section section--grey">
-        <div class="section__conteiner">
+      <section class="section section--bgc-gray">
+        <div class="conteiner">
           <h2 class="section__title">Наша команда</h2>
-          <ul class="card-set list">
-            <li class="team-card card-set__item ">
-              <img class="team-card__img"
+          <ul class="team">
+            <li class="team__item ">
+              <img class="team__img"
                 src="./images/img1.jpg"
                 alt="молодой мужчина, короткостриженый шатен с бородой, в очках, широко улыбается; бордовая рубашка, две верхние пуговицы расстегнуты"
                 width="270"
                 height="260"
               />
-              <div class="team-card__discription">
-                <h3 class="team-card__name">Игорь Демьяненко</h3>
-                <p class="team-card__position">Product Designer</p>
-                <ul class="comunity-set team-card__comunity-set list">
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+              <div class="team__discription">
+                <h3 class="team__title">Игорь Демьяненко</h3>
+                <p class="team__text">Product Designer</p>
+                <ul class="socials team__socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="team-card card-set__item">
-              <img class="team-card__img"
+            <li class="team__item">
+              <img class="team__img"
                 src="./images/img2.jpg"
                 alt="девушка-блондинка, распущенные волосы ниже плеч зачесаны на правую сторону,  в очках, широко улыбается; черный пиджак из-под которого виднеется белая блуза, руки скрещены на груди"
                 width="270"
                 height="260"
               />
-              <div class="team-card__discription">
-                <h3 class="team-card__name">Ольга Репина</h3>
-                <p class="team-card__position">Frontend Developer</p>
-                <ul class="comunity-set team-card__comunity-set list">
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+              <div class="team__discription">
+                <h3 class="team__title">Ольга Репина</h3>
+                <p class="team__text">Frontend Developer</p>
+                <ul class="socials team__socials">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="team-card card-set__item">
-              <img class="team-card__img"
+            <li class="team__item">
+              <img class="team__img"
                 src="./images/img3.jpg"
                 alt="молодой мужчина, шатен с бородкой, голова вполоборота влево, широкая улыбка; светло-голубая рубашка, верхняя пуговица расстегнута, руки скрещены на груди"
                 width="270"
                 height="260"
               />
-              <div class="team-card__discription">
-                <h3 class="team-card__name">Николай Тарасов</h3>
-                <p class="team-card__position">Marketing</p>
-                <ul class="comunity-set team-card__comunity-set list">
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+              <div class="team__discription">
+                <h3 class="team__title">Николай Тарасов</h3>
+                <p class="team__text">Marketing</p>
+                <ul class="socials team__socials">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">    <use href="./images/icons.svg#icon-twitter"></use></svg></a>
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">    <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link  link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link " href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="team-card card-set__item">
-              <img class="team-card__img"
+            <li class="team__item">
+              <img class="team__img"
                 src="./images/img4.jpg"
                 alt="молодой мужчина в очках, брюнет с бородой, на лице легкая улыбка; черная футболка, руки скрещены на груди"
                 width="270"
                 height="260"
               />
-              <div class="team-card__discription">
-                <h3 class="team-card__name">Михаил Ермаков</h3>
-                <p class="team-card__position">UI Designer</p>
-                <ul class="comunity-set team-card__comunity-set list">
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+              <div class="team__discription">
+                <h3 class="team__title">Михаил Ермаков</h3>
+                <p class="team__text">UI Designer</p>
+                <ul class="socials team__socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
-                  <li class="comunity-set__item team-card__comunity">
-                    <a class="comunity-set__link link" href=""
-                      ><svg class="comunity-set__icon" width="20" height="20">
+                  <li class="socials__item">
+                    <a class="socials__link" href=""
+                      ><svg class="socials__icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
@@ -303,37 +303,37 @@
       </section>
       <!-- Клиенты -->
       <section class="section">
-        <div class="section__conteiner">
+        <div class="conteiner">
           <h2 class="section__title">Постоянные клиенты</h2>
-          <ul class="card-set list">
-            <li class="client card-set__item">
-              <a class="client__link link" href="" target="_blank" rel="noreferrer noopener"
-                ><svg class="client__logo" width="106" height="60">
+          <ul class="clients">
+            <li class="clients__item">
+              <a class="clients__link" href="" target="_blank" rel="noreferrer noopener"
+                ><svg class="clients__logo" width="106" height="60">
                   <use href="./images/icons.svg#icon-logo1"></use></svg></a>
             </li>
-            <li class="client card-set__item">
-              <a class="client__link link" href="" target="_blank" rel="noreferrer noopener"
-                ><svg class="client__logo" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="" target="_blank" rel="noreferrer noopener"
+                ><svg class="clients__logo" width="106" height="60">
                   <use href="./images/icons.svg#icon-logo2"></use></svg></a>
             </li>
-            <li class="client card-set__item">
-              <a class="client__link link" href="" target="_blank" rel="noreferrer noopener"
-                ><svg class="client__logo" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="" target="_blank" rel="noreferrer noopener"
+                ><svg class="clients__logo" width="106" height="60">
                   <use href="./images/icons.svg#icon-logo3"></use></svg></a>
             </li>
-            <li class="client card-set__item">
-              <a class="client__link link" href="" target="_blank" rel="noreferrer noopener"
-                ><svg class="client__logo" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="" target="_blank" rel="noreferrer noopener"
+                ><svg class="clients__logo" width="106" height="60">
                   <use href="./images/icons.svg#icon-logo4"></use></svg></a>
             </li>
-            <li class="client card-set__item">
-              <a class="client__link link" href="" target="_blank" rel="noreferrer noopener"
-                ><svg class="client__logo" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="" target="_blank" rel="noreferrer noopener"
+                ><svg class="clients__logo" width="106" height="60">
                   <use href="./images/icons.svg#icon-logo5"></use></svg></a>
             </li>
-            <li class="client card-set__item">
-              <a class="client__link link" href="" target="_blank" rel="noreferrer noopener"
-                ><svg class="client__logo" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="" target="_blank" rel="noreferrer noopener"
+                ><svg class="clients__logo" width="106" height="60">
                   <use href="./images/icons.svg#icon-logo6"></use></svg></a>
             </li>
           </ul>
@@ -341,17 +341,17 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer class="section footer__section">
-      <div class="section__conteiner footer__conteiner">
+    <footer class="footer">
+      <div class="conteiner footer__conteiner">
         <div class="footer__contacts">
-          <a class="logo footer__logo link" href="./index.html"
+          <a class="logo footer__logo" href="./index.html"
             >Web<span class="logo__text logo__text--light-theme">Studio</span>
             </a>
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
-                  class="address__map-link link"
+                  class="address__map-link"
                   href="https://goo.gl/maps/bSxCjzfuzKjN976c6"
                   target="_blank"
                   rel="noreferrer noopener"
@@ -359,35 +359,35 @@
                 </a>
               </li>
               <li class="address__item">
-                <a class="adress__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="adress__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address__item">
-                <a class="adress__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="adress__link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer__socials">
           <h2 class="footer__title">Присоединяйтесь</h2>
-          <ul class="comunity-set footer__comunity-set list">
-            <li class="comunity-set__item footer__comunity">
-              <a class="comunity-set__link comunity-set__link--gray  link" href=""
-                ><svg class="comunity-set__icon comunity-set__icon--white" width="20" height="20">
+          <ul class="socials">
+            <li class="socials__item socials__item--10px-margin">
+              <a class="socials__link socials__link--bgc-gray " href=""
+                ><svg class="socials__icon socials__icon--fill-white" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use></svg></a>
             </li>
-            <li class="comunity-set__item footer__comunity">
-              <a class="comunity-set__link comunity-set__link--gray  link" href=""
-                ><svg class="comunity-set__icon comunity-set__icon--white" width="20" height="20">
+            <li class="socials__item socials__item--10px-margin">
+              <a class="socials__link socials__link--bgc-gray " href=""
+                ><svg class="socials__icon socials__icon--fill-white" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use></svg></a>
             </li>
-            <li class="comunity-set__item footer__comunity">
-              <a class="comunity-set__link comunity-set__link--gray link" href=""
-                ><svg class="comunity-set__icon comunity-set__icon--white" width="20" height="20">
+            <li class="socials__item socials__item--10px-margin">
+              <a class="socials__link socials__link--bgc-gray" href=""
+                ><svg class="socials__icon socials__icon--fill-white" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use></svg></a>
             </li>
-            <li class="comunity-set__item footer__comunity">
-              <a class="comunity-set__link comunity-set__link--gray link" href=""
-                ><svg class="comunity-set__icon comunity-set__icon--white" width="20" height="20">
+            <li class="socials__item socials__item--10px-margin">
+              <a class="socials__link socials__link--bgc-gray" href=""
+                ><svg class="socials__icon socials__icon--fill-white" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
             </li>
           </ul>
@@ -453,7 +453,7 @@
               <input class="checkbox__input visually-hidden" type="checkbox" name="policy-checkbox" id="policy-checkbox"/>
               <span class="checkbox__icon"></span>
               Соглашаюсь с рассылкой и принимаю
-            <a class="policy link" href="">Условия договора</a>
+            <a class="policy" href="">Условия договора</a>
           </label>
             </div>
             <div class="button__wrapper">

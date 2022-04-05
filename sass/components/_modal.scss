@@ -29,7 +29,7 @@
     transform: translate(-50%, -50%) scale(1);
     width: 528px;
     height: 581px;
-    background-color: $color-bcg-main;
+    background-color: $color-bgc-main;
     transition: transform $transition-main;
 }
 
@@ -62,14 +62,14 @@
     right: 8px;
     min-width: 30px;
     min-height: 30px;
-    background: $color-bcg-main;
+    background: $color-bgc-main;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     transition: background-color $transition-main;
 
     &:hover,
     &:focus {
-        background: $color-bcg-main;
+        background: $color-bgc-main;
     }
 }
 

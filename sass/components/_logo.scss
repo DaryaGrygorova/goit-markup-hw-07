@@ -6,14 +6,13 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
 }
 
 .logo__text {
-    &--light-theme {
-       color: $color-text-white;
-    }
+    color: #000000;
+}
 
-    &--dark-theme {
-        color: #000000;
-    }
+.logo__text--light-theme {
+    color: $color-text-white;
 }
